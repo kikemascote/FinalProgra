@@ -28,15 +28,10 @@ public class LoginServlet extends HttpServlet {
             out.println("<link rel='stylesheet' href='style.css'/>");
             out.println("</head>");
             out.println("<body>");
-            if (request.getParameter("user").equals(usuario.getNombre()) && request.getParameter("pass").equals(usuario.getPassword())) {
+            if (request.getParameter("uname").equals(usuario.getNombre()) && request.getParameter("passwd").equals(usuario.getPassword())) {
                 response.sendRedirect("Biblioteca");
             } else {
-                out.println("<script>Swal.fire({"
-                        + "icon: 'error',"
-                        + "title: 'Datos incorrectos',"
-                        + "text: 'Intenta de nuevo'"
-                        + "}).then(function(){"
-                        + "location.href='index.jsp'});</script>");
+                out.println("<h1>nel mi compa!</h1>");
             }
             out.println("</body>");
             out.println("</html>");

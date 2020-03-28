@@ -21,14 +21,15 @@
 </head>
 
 <body>
-<h1>Biblioteca</h1>
-<div class="dform">
-    <form action="LoginServlet" method="post">
-        <label>Introduce nombre de usuario</label>
-        <input type="text" id="uname" name="uname">
-        <label>Introduce el passguord</label>
-        <input type="password" id="passwd" name="passwd">
+<h1 class="animated" align="center">Biblioteca</h1>
 
+<div class="container" align="center">
+    <form  action="LoginServlet"><br>
+        <label>Introduce nombre de usuario</label><br>
+        <input type="text" name="uname"><br>
+        <label>Introduce el passguord</label><br>
+        <input type="password" name="passwd">
+        <br><br>
         <button type="submit">loguiar</button>
 
     </form>
