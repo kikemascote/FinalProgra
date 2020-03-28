@@ -1,6 +1,6 @@
-package app.model;
+package app.modelo;
 
-public class User {
+public class TUser {
     public static String nombre;
     public static String password;
     // String pwdcrypt;

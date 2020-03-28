@@ -1,10 +1,4 @@
 <%-- Created by IntelliJ IDEA. --%>
-<%--
-    Document   : LoginPage
-    Created on : 25 mar 2020, 21:35:25
-    Author     : Kike
---%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/login.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
@@ -13,7 +7,7 @@
 <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
 <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 <html>
-<head>本
+<head>
     <title>Biblioteca</title>
 </head>
 <body>

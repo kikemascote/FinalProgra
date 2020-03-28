@@ -1,15 +1,28 @@
 package app.datasim;
 
 
-import app.model.User;
+import app.modelo.TUser;
 
 public class DAO {
-    User usuario = new User();
+    TUser usuario = new TUser();
 
     //simular acceso a datos guardados en una BD
     public void setUsers() {
         usuario.setNombre("Admin");
         usuario.setPassword("password");
+    }
+
+    public void setUsers(String uname, String passwd) {
+        usuario.setNombre(uname.toString());
+        usuario.setPassword(passwd.toString());
+    }
+
+    public String getUser() {
+        return usuario.getNombre();
+    }
+
+    public String getPassword() {
+        return usuario.getPassword();
     }
 
     public boolean isValid(String uname, String passwd) {
