@@ -1,0 +1,23 @@
+
+body {
+    background-image: url("img/background.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    padding: 5%;
+}
+
+.dform {
+    padding: 6%;
+    background-color: RGBA(255,0,0,0.4);
+    border-radius: 15px;
+}
+
+form {
+    color: white;
+}
+
+button {
+    border-radius: 25px;
+}
